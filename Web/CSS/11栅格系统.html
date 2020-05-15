@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>栅格介绍 | Laot的笔记本</title>
+    <meta name="generator" content="VuePress 1.4.1">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="description" content="Laot的笔记本，记录学习的技术知识。">
+    <link rel="preload" href="/assets/css/0.styles.5433fd48.css" as="style"><link rel="preload" href="/assets/js/app.c03918dc.js" as="script"><link rel="preload" href="/assets/js/2.c1b2c91e.js" as="script"><link rel="preload" href="/assets/js/18.3e193ff3.js" as="script"><link rel="prefetch" href="/assets/js/10.29757d77.js"><link rel="prefetch" href="/assets/js/11.1f2ea3bd.js"><link rel="prefetch" href="/assets/js/12.94477de1.js"><link rel="prefetch" href="/assets/js/13.b6fb585a.js"><link rel="prefetch" href="/assets/js/14.d2123f53.js"><link rel="prefetch" href="/assets/js/15.2bb2b8f2.js"><link rel="prefetch" href="/assets/js/16.6f9fafe7.js"><link rel="prefetch" href="/assets/js/17.301406d0.js"><link rel="prefetch" href="/assets/js/19.e7be556c.js"><link rel="prefetch" href="/assets/js/20.6090e31f.js"><link rel="prefetch" href="/assets/js/21.963a9151.js"><link rel="prefetch" href="/assets/js/22.75f753a7.js"><link rel="prefetch" href="/assets/js/23.0ec55987.js"><link rel="prefetch" href="/assets/js/24.81615e32.js"><link rel="prefetch" href="/assets/js/25.ebd6a564.js"><link rel="prefetch" href="/assets/js/26.e643e0d3.js"><link rel="prefetch" href="/assets/js/27.3af2adad.js"><link rel="prefetch" href="/assets/js/28.244d24bc.js"><link rel="prefetch" href="/assets/js/29.b803f8d9.js"><link rel="prefetch" href="/assets/js/3.a06737d9.js"><link rel="prefetch" href="/assets/js/30.903e743a.js"><link rel="prefetch" href="/assets/js/31.bee8a66d.js"><link rel="prefetch" href="/assets/js/32.f69701da.js"><link rel="prefetch" href="/assets/js/33.01241d4d.js"><link rel="prefetch" href="/assets/js/4.d59a6606.js"><link rel="prefetch" href="/assets/js/5.7c3bdbfc.js"><link rel="prefetch" href="/assets/js/6.48099054.js"><link rel="prefetch" href="/assets/js/7.f3f9d9bc.js"><link rel="prefetch" href="/assets/js/8.e9bce888.js"><link rel="prefetch" href="/assets/js/9.e87b6ecd.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.5433fd48.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Laot的笔记本</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="渗透测试" class="dropdown-title"><span class="title">渗透测试</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/penetrationTest/Web/SQL注入.html" class="nav-link">
+  Web安全
+</a></li><li class="dropdown-item"><!----> <a href="/penetrationTest/Web/" class="nav-link">
+  内网渗透
+</a></li><li class="dropdown-item"><!----> <a href="/penetrationTest/Web/" class="nav-link">
+  渗透工具
+</a></li></ul></div></div><div class="nav-item"><a href="/PHP/" class="nav-link">
+  PHP
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端" class="dropdown-title"><span class="title">前端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Web/HTML/01基础知识.html" class="nav-link">
+  HTML
+</a></li><li class="dropdown-item"><!----> <a href="/Web/CSS/01基础知识.html" class="nav-link">
+  CSS
+</a></li></ul></div></div><div class="nav-item"><a href="/Tools/" class="nav-link">
+  工具软件
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="渗透测试" class="dropdown-title"><span class="title">渗透测试</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/penetrationTest/Web/SQL注入.html" class="nav-link">
+  Web安全
+</a></li><li class="dropdown-item"><!----> <a href="/penetrationTest/Web/" class="nav-link">
+  内网渗透
+</a></li><li class="dropdown-item"><!----> <a href="/penetrationTest/Web/" class="nav-link">
+  渗透工具
+</a></li></ul></div></div><div class="nav-item"><a href="/PHP/" class="nav-link">
+  PHP
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端" class="dropdown-title"><span class="title">前端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Web/HTML/01基础知识.html" class="nav-link">
+  HTML
+</a></li><li class="dropdown-item"><!----> <a href="/Web/CSS/01基础知识.html" class="nav-link">
+  CSS
+</a></li></ul></div></div><div class="nav-item"><a href="/Tools/" class="nav-link">
+  工具软件
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/Web/CSS/01基础知识.html" class="sidebar-link">基础知识</a></li><li><a href="/Web/CSS/02选择器.html" class="sidebar-link">选择器</a></li><li><a href="/Web/CSS/03元素权重.html" class="sidebar-link">元素权重</a></li><li><a href="/Web/CSS/04文本控制.html" class="sidebar-link">文本控制</a></li><li><a href="/Web/CSS/05盒子模型.html" class="sidebar-link">盒子模型</a></li><li><a href="/Web/CSS/06背景处理.html" class="sidebar-link">背景处理</a></li><li><a href="/Web/CSS/07数据样式.html" class="sidebar-link">数据样式</a></li><li><a href="/Web/CSS/08浮动布局.html" class="sidebar-link">浮动布局</a></li><li><a href="/Web/CSS/09定位布局.html" class="sidebar-link">定位布局</a></li><li><a href="/Web/CSS/10弹性布局.html" class="sidebar-link">弹性布局</a></li><li><a href="/Web/CSS/11栅格系统.html" class="active sidebar-link">栅格系统</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/Web/CSS/11栅格系统.html#栅格介绍" class="sidebar-link">栅格介绍</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/Web/CSS/11栅格系统.html#名词解释" class="sidebar-link">名词解释</a></li><li class="sidebar-sub-header"><a href="/Web/CSS/11栅格系统.html#兼容性" class="sidebar-link">兼容性</a></li></ul></li><li class="sidebar-sub-header"><a href="/Web/CSS/11栅格系统.html#声明容器" class="sidebar-link">声明容器</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/Web/CSS/11栅格系统.html#块级容器" class="sidebar-link">块级容器</a></li><li class="sidebar-sub-header"><a href="/Web/CSS/11栅格系统.html#行级容器" class="sidebar-link">行级容器</a></li></ul></li><li class="sidebar-sub-header"><a href="/Web/CSS/11栅格系统.html#划分行列" class="sidebar-link">划分行列</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/Web/CSS/11栅格系统.html#固定宽度" class="sidebar-link">固定宽度</a></li><li class="sidebar-sub-header"><a href="/Web/CSS/11栅格系统.html#百分比" class="sidebar-link">百分比</a></li><li class="sidebar-sub-header"><a href="/Web/CSS/11栅格系统.html#重复设置" class="sidebar-link">重复设置</a></li><li class="sidebar-sub-header"><a href="/Web/CSS/11栅格系统.html#自动填充" class="sidebar-link">自动填充</a></li><li class="sidebar-sub-header"><a href="/Web/CSS/11栅格系统.html#比例划分" class="sidebar-link">比例划分</a></li><li class="sidebar-sub-header"><a href="/Web/CSS/11栅格系统.html#组合定义" class="sidebar-link">组合定义</a></li><li class="sidebar-sub-header"><a href="/Web/CSS/11栅格系统.html#minmax" class="sidebar-link">minmax</a></li></ul></li><li class="sidebar-sub-header"><a href="/Web/CSS/11栅格系统.html#间距定义" class="sidebar-link">间距定义</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/Web/CSS/11栅格系统.html#行间距" class="sidebar-link">行间距</a></li><li class="sidebar-sub-header"><a href="/Web/CSS/11栅格系统.html#列间距" class="sidebar-link">列间距</a></li><li class="sidebar-sub-header"><a href="/Web/CSS/11栅格系统.html#组合定义-2" class="sidebar-link">组合定义</a></li></ul></li><li class="sidebar-sub-header"><a href="/Web/CSS/11栅格系统.html#栅格命名" class="sidebar-link">栅格命名</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/Web/CSS/11栅格系统.html#独立命名" class="sidebar-link">独立命名</a></li><li class="sidebar-sub-header"><a href="/Web/CSS/11栅格系统.html#自动命名" class="sidebar-link">自动命名</a></li></ul></li><li class="sidebar-sub-header"><a href="/Web/CSS/11栅格系统.html#元素定位" class="sidebar-link">元素定位</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/Web/CSS/11栅格系统.html#根据栅格线" class="sidebar-link">根据栅格线</a></li><li class="sidebar-sub-header"><a href="/Web/CSS/11栅格系统.html#根据栅格命名" class="sidebar-link">根据栅格命名</a></li><li class="sidebar-sub-header"><a href="/Web/CSS/11栅格系统.html#根据自动命名" class="sidebar-link">根据自动命名</a></li><li class="sidebar-sub-header"><a href="/Web/CSS/11栅格系统.html#根据偏移量" class="sidebar-link">根据偏移量</a></li><li class="sidebar-sub-header"><a href="/Web/CSS/11栅格系统.html#简写模式" class="sidebar-link">简写模式</a></li><li class="sidebar-sub-header"><a href="/Web/CSS/11栅格系统.html#grid-area" class="sidebar-link">grid-area</a></li><li class="sidebar-sub-header"><a href="/Web/CSS/11栅格系统.html#bootstrap" class="sidebar-link">bootstrap</a></li></ul></li><li class="sidebar-sub-header"><a href="/Web/CSS/11栅格系统.html#元素附加" class="sidebar-link">元素附加</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/Web/CSS/11栅格系统.html#编号附加" class="sidebar-link">编号附加</a></li><li class="sidebar-sub-header"><a href="/Web/CSS/11栅格系统.html#命名附加" class="sidebar-link">命名附加</a></li></ul></li><li class="sidebar-sub-header"><a href="/Web/CSS/11栅格系统.html#区域声明" class="sidebar-link">区域声明</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/Web/CSS/11栅格系统.html#区域布局" class="sidebar-link">区域布局</a></li><li class="sidebar-sub-header"><a href="/Web/CSS/11栅格系统.html#区域声明-2" class="sidebar-link">区域声明</a></li><li class="sidebar-sub-header"><a href="/Web/CSS/11栅格系统.html#区域占位" class="sidebar-link">区域占位</a></li></ul></li><li class="sidebar-sub-header"><a href="/Web/CSS/11栅格系统.html#栅格流动" class="sidebar-link">栅格流动</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/Web/CSS/11栅格系统.html#基本使用" class="sidebar-link">基本使用</a></li><li class="sidebar-sub-header"><a href="/Web/CSS/11栅格系统.html#强制填充" class="sidebar-link">强制填充</a></li></ul></li><li class="sidebar-sub-header"><a href="/Web/CSS/11栅格系统.html#栅格对齐" class="sidebar-link">栅格对齐</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/Web/CSS/11栅格系统.html#平均分布" class="sidebar-link">平均分布</a></li><li class="sidebar-sub-header"><a href="/Web/CSS/11栅格系统.html#元素对齐" class="sidebar-link">元素对齐</a></li><li class="sidebar-sub-header"><a href="/Web/CSS/11栅格系统.html#元素独立控制" class="sidebar-link">元素独立控制</a></li><li class="sidebar-sub-header"><a href="/Web/CSS/11栅格系统.html#组合简写" class="sidebar-link">组合简写</a></li></ul></li></ul></li><li><a href="/Web/CSS/12变形动画.html" class="sidebar-link">变形动画</a></li><li><a href="/Web/CSS/13过渡延迟.html" class="sidebar-link">过渡延迟</a></li><li><a href="/Web/CSS/14帧动画.html" class="sidebar-link">帧动画</a></li><li><a href="/Web/CSS/15媒体查询.html" class="sidebar-link">媒体查询</a></li><li><a href="/Web/CSS/16响应尺寸.html" class="sidebar-link">响应尺寸</a></li><li><a href="/Web/CSS/17字体图标.html" class="sidebar-link">字体图标</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="栅格介绍"><a href="#栅格介绍" class="header-anchor">#</a> 栅格介绍</h2> <h3 id="名词解释"><a href="#名词解释" class="header-anchor">#</a> 名词解释</h3> <p>CSS网格布局(Grid Layout)是CSS中最强大的布局系统。这是一个二维系统，这意味着它可以同时处理列和行。</p> <p>栅格系统于flex弹性布局有相似之处，都是由父容器包含多个项目元素的使用。</p> <p><img src="/images/2020-05-05_142854.jpg" alt=""></p> <h3 id="兼容性"><a href="#兼容性" class="header-anchor">#</a> 兼容性</h3> <p>下面是栅格系统兼容性数据，所以在根据项目使用的场景决定是否使用栅格布局。</p> <p><img src="/images/2020-04-26_171919.png" alt=""></p> <h2 id="声明容器"><a href="#声明容器" class="header-anchor">#</a> 声明容器</h2> <h3 id="块级容器"><a href="#块级容器" class="header-anchor">#</a> 块级容器</h3> <p><img src="/images/2020-05-05_143729.jpg" alt=""></p> <div class="language- extra-class"><pre class="language-text"><code>&lt;style&gt;
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        padding: 200px;
+    }
+
+    article{
+        display: grid;
+        width: 400px;
+        height: 200px;
+        border: solid 5px silver;
+        grid-template-rows: 50% 50%;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+
+    article div{
+        background: blueviolet;
+        background-clip: content-box;
+        padding: 10px;
+        border: solid 1px #ddd;
+    }
+    
+&lt;/style&gt;
+...
+laot
+&lt;article&gt;
+    &lt;div&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;/div&gt;
+&lt;/article&gt;
+</code></pre></div><h3 id="行级容器"><a href="#行级容器" class="header-anchor">#</a> 行级容器</h3> <p><img src="/images/2020-05-05_152107.jpg" alt=""></p> <div class="language- extra-class"><pre class="language-text"><code>display: inline-grid;
+</code></pre></div><h2 id="划分行列"><a href="#划分行列" class="header-anchor">#</a> 划分行列</h2> <p>栅格有点类似表格，也有<code>行</code>和<code>列</code>。使用<code>grid-template-columns</code>规则可以划分列数，使用<code>grid-template-rows</code>划分行数。</p> <h3 id="固定宽度"><a href="#固定宽度" class="header-anchor">#</a> 固定宽度</h3> <p>下面是使用固定宽度划分两行三列的示例，当容器宽度过大时将留白。</p> <p><img src="/images/2020-05-05_153429.jpg" alt=""></p> <div class="language- extra-class"><pre class="language-text"><code>&lt;style&gt;
+	* {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    padding: 200px;
+  }
+  article {
+    width: 300px;
+    height: 200px;
+    border: solid 5px silver;
+    display: grid;
+    grid-template-rows: 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+  }
+  article div {
+    background: blueviolet;
+    background-clip: content-box;
+    padding: 10px;
+    border: solid 1px #ddd;
+  }
+
+&lt;/style&gt;
+...
+
+&lt;article&gt;
+    &lt;div&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;/div&gt;
+&lt;/article&gt;
+</code></pre></div><h3 id="百分比"><a href="#百分比" class="header-anchor">#</a> 百分比</h3> <p>可以使用百分比自动适应容器。</p> <p><img src="/images/2020-05-05_153857.jpg" alt=""></p> <div class="language- extra-class"><pre class="language-text"><code>display: grid;
+grid-template-rows: 50% 50%;
+grid-template-columns: 25% 25% 25% 25%;
+</code></pre></div><h3 id="重复设置"><a href="#重复设置" class="header-anchor">#</a> 重复设置</h3> <p>使用<code>repeat</code>统一设置值，第一个参数为重复数量，第二个参数是重复值。</p> <p><img src="/images/2020-05-05_154838.jpg" alt=""></p> <div class="language- extra-class"><pre class="language-text"><code>grid-template-rows: repeat(2, 50%);
+grid-template-columns: repeat(2, 50%);
+</code></pre></div><p>可以设置多个值来定义重复，下面定义了四列，以<code>100px 50px</code>重复排列。</p> <p><img src="/images/2020-05-05_155103.jpg" alt=""></p> <div class="language- extra-class"><pre class="language-text"><code>display: grid;
+grid-template-rows: repeat(2, 50%);
+grid-template-columns: repeat(2, 100px 50px);
+</code></pre></div><h3 id="自动填充"><a href="#自动填充" class="header-anchor">#</a> 自动填充</h3> <p>自动填充是根据容器尺寸，自动设置元素尺寸。</p> <p><img src="/images/2020-05-05_160105.jpg" alt=""></p> <div class="language- extra-class"><pre class="language-text"><code>width: 300px;
+height: 200px;
+display: grid;
+grid-template-rows: repeat(auto-fill, 100px);
+grid-template-columns: repeat(auto-fill, 100px);
+</code></pre></div><h3 id="比例划分"><a href="#比例划分" class="header-anchor">#</a> 比例划分</h3> <p>使用<code>fr</code>单位设置元素在空间中所占的比例，下面按<code>1份-2份</code>分成两组共四列</p> <div class="language- extra-class"><pre class="language-text"><code>grid-template-rows: repeat(auto-fill, 100px);
+grid-template-columns: repeat(2, 1fr 2fr);
+</code></pre></div><h4 id="单位组合"><a href="#单位组合" class="header-anchor">#</a> 单位组合</h4> <p><img src="/images/2020-05-05_161715.jpg" alt=""></p> <div class="language- extra-class"><pre class="language-text"><code>width: 300px;
+height: 200px;
+display: grid;
+grid-template-rows: 1fr 2fr;
+grid-template-columns: 100px 1fr 2fr;
+</code></pre></div><h4 id="重复定义"><a href="#重复定义" class="header-anchor">#</a> 重复定义</h4> <p><img src="/images/2020-05-05_161813.jpg" alt=""></p> <div class="language- extra-class"><pre class="language-text"><code>width: 300px;
+height: 100px;
+display: grid;
+grid-template-rows: repeat(2, 1fr);
+grid-template-columns: repeat(2, 1fr 2fr);
+</code></pre></div><h3 id="组合定义"><a href="#组合定义" class="header-anchor">#</a> 组合定义</h3> <p><code>grid-template</code>是<code>grid-template-rows</code>、<code>grid-template-columns</code>、<code>grid-template-areas</code>的三个属性的简写。</p> <p>下面是使用<code>grid-template</code>同时声明<code>grid-template-rows、grid-template-columns</code>。</p> <div class="language- extra-class"><pre class="language-text"><code>grid-template: 100px 1fr / 50px 1fr
+</code></pre></div><p>下面是使用<code>grid-template</code>定义<code>grid-template-areas</code>，有关<code>grid-template-areas</code>的使用方法会在下面介绍。</p> <p><img src="/images/2020-05-05_220207.jpg" alt=""></p> <div class="language- extra-class"><pre class="language-text"><code>&lt;style&gt;
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        padding: 200px;
+    }
+
+    article {
+        display: grid;
+        width: 300px;
+        height: 200px;
+        border: solid 5px silver;
+        grid-template: &quot;header . .&quot;
+            &quot;. main .&quot;
+            &quot;footer footer .&quot;;
+    }
+
+    article div {
+        background: blueviolet;
+        background-clip: content-box;
+        padding: 10px;
+        border: solid 1px #ddd;
+    }
+
+    article div:nth-of-type(1) {
+        grid-area: header;
+        background: red;
+    }
+
+    article div:nth-of-type(2) {
+        grid-area: main;
+        background: green;
+    }
+
+    article div:nth-of-type(3) {
+        grid-area: footer;
+        background: orange;
+    }
+&lt;/style&gt;
+...
+&lt;article&gt;
+    &lt;div&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;/div&gt;
+&lt;/article&gt;
+</code></pre></div><h3 id="minmax"><a href="#minmax" class="header-anchor">#</a> minmax</h3> <p>使用<code>minmax</code>方法可以设置取值范围，下列在行高在<code>最小100px~最大1fr</code>间取值。</p> <p><img src="/images/2020-05-05_220508.jpg" alt=""></p> <div class="language- extra-class"><pre class="language-text"><code>width: 300px;
+height: 300px;
+display: grid;
+grid-template-rows: 100px minmax(100px, 1fr);
+grid-template-columns: 100px 1fr;
+</code></pre></div><h2 id="间距定义"><a href="#间距定义" class="header-anchor">#</a> 间距定义</h2> <h3 id="行间距"><a href="#行间距" class="header-anchor">#</a> 行间距</h3> <p>使用<code>row-gap</code>设置行间距。</p> <p><img src="/images/2020-05-05_221155.jpg" alt=""></p> <div class="language- extra-class"><pre class="language-text"><code>width: 300px;
+height: 200px;
+display: grid;
+grid-template-rows: repeat(2, 1fr);
+grid-template-columns: repeat(3, 1fr);
+row-gap: 30px;
+</code></pre></div><h3 id="列间距"><a href="#列间距" class="header-anchor">#</a> 列间距</h3> <p>使用<code>column-gap</code>定义列间距。</p> <p><img src="/images/2020-05-05_221313.jpg" alt=""></p> <div class="language- extra-class"><pre class="language-text"><code>width: 300px;
+height: 200px;
+display: grid;
+grid-template-rows: repeat(2, 1fr);
+grid-template-columns: repeat(3, 1fr);
+column-gap: 20px;
+</code></pre></div><h3 id="组合定义-2"><a href="#组合定义-2" class="header-anchor">#</a> 组合定义</h3> <p>使用<code>grid-gap</code>规则可以一次定义行、列间距，如果间距一样可以只设置一个值。</p> <h4 id="设置行列间距为20px与10px"><a href="#设置行列间距为20px与10px" class="header-anchor">#</a> 设置行列间距为20px与10px</h4> <p><img src="/images/2020-05-05_221535.jpg" alt=""></p> <div class="language- extra-class"><pre class="language-text"><code>grid-gap: 20px 10px;
+</code></pre></div><h2 id="栅格命名"><a href="#栅格命名" class="header-anchor">#</a> 栅格命名</h2> <p>栅格线可以使用命名与编号找到，方便控制指定栅格，或将内容添加到指定栅格中。</p> <p><img src="/images/2020-05-05_221716.jpg" alt=""></p> <h3 id="独立命名"><a href="#独立命名" class="header-anchor">#</a> 独立命名</h3> <p>可以为每个栅格独立命名来进行调用。</p> <p><img src="/images/2020-05-05_222325.jpg" alt=""></p> <div class="language- extra-class"><pre class="language-text"><code>&lt;style&gt;
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        padding-top: 50px;
+    }
+
+    article {
+        margin: 0 auto;
+        width: 300px;
+        height: 300px;
+        border: solid 5px silver;
+        display: grid;
+        grid-template-rows: [r1-start] 100px [r1-end r2-start] 100px [r2-end r3-start] 100px [r3-end];
+        grid-template-columns: [c1-start] 100px [c1-end c2-start] 100px [c2-start c3-start] 100px [c3-end];
+    }
+
+    div {
+        background: blueviolet;
+        background-clip: content-box;
+        border: solid 1px blueviolet;
+        padding: 10px;
+        box-sizing: border-box;
+        color: white;
+    }
+
+    div:first-child {
+        grid-row-start: r2-start;
+        grid-column-start: c1-end;
+        grid-row-end: r2-end;
+        grid-column-end: c3-start;
+    }
+&lt;/style&gt;
+...
+&lt;article&gt;
+	&lt;div&gt;laot&lt;/div&gt;
+&lt;/article&gt;
+</code></pre></div><h3 id="自动命名"><a href="#自动命名" class="header-anchor">#</a> 自动命名</h3> <p>对于重复设置的栅格系统会自动命名，使用时使用<code>c1、c2</code>的方式定位栅格。</p> <p><img src="/images/2020-05-05_222716.jpg" alt=""></p> <div class="language- extra-class"><pre class="language-text"><code>&lt;style&gt;
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        padding: 200px;
+    }
+
+    article {
+        display: grid;
+        width: 300px;
+        height: 300px;
+        border: solid 5px silver;
+        grid-template-rows: repeat(3,[r-start] 100px [r-end]);
+        grid-template-columns: repeat(3,[c-start] 100px [c-end]);;
+    }
+
+    article div {
+        background: blueviolet;
+        background-clip: content-box;
+        padding: 10px;
+        border: solid 1px #ddd;
+    }
+
+    article div:first-child{
+        grid-row-start: r-start 2;
+        grid-row-end: r-end 2;
+        grid-column-start: c-start 2;
+        grid-column-end: c-end 2;
+    }
+
+&lt;/style&gt;
+</code></pre></div><h2 id="元素定位"><a href="#元素定位" class="header-anchor">#</a> 元素定位</h2> <table><thead><tr><th style="text-align:left;">选项</th> <th style="text-align:left;">说明</th></tr></thead> <tbody><tr><td style="text-align:left;">grid-row-start</td> <td style="text-align:left;">行开始栅格线</td></tr> <tr><td style="text-align:left;">grid-row-end</td> <td style="text-align:left;">行结束栅格线</td></tr> <tr><td style="text-align:left;">grid-column-start</td> <td style="text-align:left;">列开始栅格线</td></tr> <tr><td style="text-align:left;">grid-column-end</td> <td style="text-align:left;">列结束栅格线</td></tr></tbody></table> <h3 id="根据栅格线"><a href="#根据栅格线" class="header-anchor">#</a> 根据栅格线</h3> <p>通过设置具体第几条栅格线来设置区域位置，设置的数值可以是正数和负数。</p> <p><img src="/images/2020-05-05_222716.jpg" alt=""></p> <div class="language- extra-class"><pre class="language-text"><code>&lt;style&gt;
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        padding: 200px;
+    }
+
+    article {
+        display: grid;
+        width: 300px;
+        height: 300px;
+        border: solid 5px silver;
+        grid-template-rows: repeat(3,100px);
+        grid-template-columns: repeat(3,100px);;
+    }
+
+    article div {
+        background: blueviolet;
+        background-clip: content-box;
+        padding: 10px;
+        border: solid 1px #ddd;
+    }
+
+    article div:first-child{
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+&lt;/style&gt;
+</code></pre></div><h3 id="根据栅格命名"><a href="#根据栅格命名" class="header-anchor">#</a> 根据栅格命名</h3> <p><img src="/images/2020-05-05_222716.jpg" alt=""></p> <div class="language- extra-class"><pre class="language-text"><code>&lt;style&gt;
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        padding-top: 50px;
+    }
+
+    article {
+        margin: 0 auto;
+        width: 300px;
+        height: 300px;
+        border: solid 5px silver;
+        display: grid;
+        grid-template-rows: [r1-start] 100px [r1-end r2-start] 100px [r2-end r3-start] 100px [r3-end];
+        grid-template-columns: [c1-start] 100px [c1-end c2-start] 100px [c2-start c3-start] 100px [c3-end];
+    }
+
+    div {
+        background: blueviolet;
+        background-clip: content-box;
+        border: solid 1px blueviolet;
+        padding: 10px;
+        box-sizing: border-box;
+        color: white;
+    }
+
+    div:first-child {
+        grid-row-start: r2-start;
+        grid-column-start: c1-end;
+        grid-row-end: r2-end;
+        grid-column-end: c3-start;
+    }
+&lt;/style&gt;
+...
+&lt;article&gt;
+	&lt;div&gt;laot&lt;/div&gt;
+&lt;/article&gt;
+</code></pre></div><h3 id="根据自动命名"><a href="#根据自动命名" class="header-anchor">#</a> 根据自动命名</h3> <p>对于重复设置的栅格系统会自动命名，使用时使用 <code>c1、c2</code>的方式定位栅格。</p> <p><img src="/images/2020-05-05_222716.jpg" alt=""></p> <div class="language- extra-class"><pre class="language-text"><code>&lt;style&gt;
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        padding: 200px;
+    }
+
+    article {
+        display: grid;
+        width: 300px;
+        height: 300px;
+        border: solid 5px silver;
+        grid-template-rows: repeat(3,[r-start] 100px [r-end]);
+        grid-template-columns: repeat(3,[c-start] 100px [c-end]);;
+    }
+
+    article div {
+        background: blueviolet;
+        background-clip: content-box;
+        padding: 10px;
+        border: solid 1px #ddd;
+    }
+
+    article div:first-child{
+        grid-row-start: r-start 2;
+        grid-row-end: r-end 2;
+        grid-column-start: c-start 2;
+        grid-column-end: c-end 2;
+    }
+
+&lt;/style&gt;
+</code></pre></div><h3 id="根据偏移量"><a href="#根据偏移量" class="header-anchor">#</a> 根据偏移量</h3> <p>使用	<code>span</code>可以设置移动单元格数量，数值只能为正数。</p> <ul><li>设置在<code>grid-*-end</code>表示<code>grid-*-end</code>栅格线是从<code>grid-*-end</code>移动几个单元格。</li> <li>设置在<code>grid-*-start</code>表示<code>grid-*-start</code>栅格线是从<code>grid-*-start</code>移动几个单元格。
+为<code>grid-*-end</code>设置栅格线。</li></ul> <p><img src="/images/2020-05-05_224447.jpg" alt=""></p> <div class="language- extra-class"><pre class="language-text"><code>&lt;style&gt;
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        padding: 200px;
+    }
+
+    article {
+        display: grid;
+        width: 300px;
+        height: 300px;
+        border: solid 5px silver;
+        grid-template-rows: repeat(3,100px);
+        grid-template-columns: repeat(3,100px);;
+    }
+
+    article div {
+        background: blueviolet;
+        background-clip: content-box;
+        padding: 10px;
+        border: solid 1px #ddd;
+    }
+
+    article div:first-child{
+        grid-row-start: 1;
+        grid-row-end: span 2;
+        grid-column-start: 2;
+        grid-column-end: span 2;
+    }
+
+&lt;/style&gt;
+</code></pre></div><h3 id="简写模式"><a href="#简写模式" class="header-anchor">#</a> 简写模式</h3> <p>可以使用<code>grid-row</code>设置行开始/结束栅格线，使用<code>grid-column</code>设置列开始/结束栅格线。</p> <p>上例中的元素，可以使用以下简写方式声明（推荐）。</p> <div class="language- extra-class"><pre class="language-text"><code>grid-row: 1/3;
+grid-column: 2/4;
+</code></pre></div><h3 id="grid-area"><a href="#grid-area" class="header-anchor">#</a> grid-area</h3> <p><code>grid-area</code>更加简介是同时对<code>grid-row</code>与<code>grid-column</code>属性的组合声明。</p> <p>语法结构如下：</p> <div class="language- extra-class"><pre class="language-text"><code>grid-area: grid-row-start/grid-column-start/grid-row-end/grid-column-end;
+</code></pre></div><p>下面是将元素定位在中间的示例。</p> <p><img src="/images/2020-05-05_225104.jpg" alt=""></p> <div class="language- extra-class"><pre class="language-text"><code>&lt;style&gt;
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        padding: 200px;
+    }
+
+    article {
+        display: grid;
+        width: 300px;
+        height: 300px;
+        border: solid 5px silver;
+        grid-template-rows: repeat(3,100px);
+        grid-template-columns: repeat(3,100px);;
+    }
+
+    article div {
+        background: blueviolet;
+        background-clip: content-box;
+        padding: 10px;
+        border: solid 1px #ddd;
+    }
+
+    article div:first-child{
+        grid-area: 2/2/3/3;
+    }
+
+&lt;/style&gt;
+</code></pre></div><h3 id="bootstrap"><a href="#bootstrap" class="header-anchor">#</a> bootstrap</h3> <p>下面是bootstrap栅格系统的开发，根据指定的样式自动设置栅格大小。</p> <p><img src="/images/2020-05-05_225230.jpg" alt=""></p> <div class="language- extra-class"><pre class="language-text"><code>&lt;style&gt;
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        padding-top: 200px;
+    }
+
+    .container {
+        margin: 0 auto;
+        border: solid 5px silver;
+        width: 1020px;
+        height: 320px;
+    }
+
+    .row {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        gap: 10px 10px;
+    }
+
+    div {
+        background: blueviolet;
+        height: 100px;
+        background-clip: content-box;
+        padding: 10px;
+        box-sizing: border-box;
+        border: solid 1px blueviolet;
+        font-size: 35px;
+    }
+
+    .c-1 {
+        grid-column: span 1;
+    }
+
+    .c-2 {
+        grid-column-end: span 2;
+    }
+
+    .c-3 {
+        grid-column-end: span 3;
+    }
+
+    .c-4 {
+        grid-column-end: span 4;
+    }
+
+    .c-5 {
+        grid-column-end: span 5;
+    }
+
+    .c-6 {
+        grid-column-end: span 6;
+    }
+
+    .c-7 {
+        grid-column-end: span 7;
+    }
+
+    .blue {
+        background: #904FA9;
+    }
+
+    .green {
+        background: #EEBC31;
+    }
+&lt;/style&gt;
+...
+
+&lt;article class=&quot;container&quot;&gt;
+    &lt;section class=&quot;row&quot;&gt;
+        &lt;div class=&quot;c-1 blue&quot;&gt;1&lt;/div&gt;
+        &lt;div class=&quot;c-3 blue&quot;&gt;3&lt;/div&gt;
+        &lt;div class=&quot;c-6 blue&quot;&gt;6&lt;/div&gt;
+        &lt;div class=&quot;c-2 blue&quot;&gt;2&lt;/div&gt;
+    &lt;/section&gt;
+    &lt;section class=&quot;row&quot;&gt;
+        &lt;div class=&quot;c-4 green&quot;&gt;4&lt;/div&gt;
+        &lt;div class=&quot;c-4 green&quot;&gt;4&lt;/div&gt;
+        &lt;div class=&quot;c-4 green&quot;&gt;4&lt;/div&gt;
+    &lt;/section&gt;
+&lt;/article&gt;
+</code></pre></div><h2 id="元素附加"><a href="#元素附加" class="header-anchor">#</a> 元素附加</h2> <p>通过<code>grid-area</code>属性可以将元素放在指定区域中。<code>grid-area</code>由<code>grid-row-start</code>、<code>grid-column-start</code>、<code>grid-row-end</code>、<code>grid-column-end</code>的简写模式。</p> <h3 id="编号附加"><a href="#编号附加" class="header-anchor">#</a> 编号附加</h3> <p>下例中将元素放在容器的中心位置中的栅格中。</p> <p><img src="/images/2020-05-05_230000.jpg" alt=""></p> <div class="language- extra-class"><pre class="language-text"><code>&lt;style&gt;
+    article {
+        margin: 0 auto;
+        width: 400px;
+        height: 400px;
+        border: solid 5px silver;
+        display: grid;
+        grid-template-rows: repeat(4, 100px);
+        grid-template-columns: repeat(4, 100px);
+    }
+
+    div {
+        background: blueviolet;
+        background-clip: content-box;
+        padding: 10px;
+        border: solid 1px blueviolet;
+        font-size: 30px;
+        color: white;
+    }
+
+    article div:first-child {
+        grid-area: 2/2/4/4;
+    }
+&lt;/style&gt;
+...
+&lt;article class=&quot;container&quot;&gt;
+    &lt;div&gt;1&lt;/div&gt;
+&lt;/article&gt;
+</code></pre></div><h3 id="命名附加"><a href="#命名附加" class="header-anchor">#</a> 命名附加</h3> <p>同样是上面的例子可以使用栅格线命名来附加元素。</p> <div class="language- extra-class"><pre class="language-text"><code>article {
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    border: solid 5px silver;
+    display: grid;
+    grid-template-rows: repeat(auto-fill, [r] 100px);
+    grid-template-columns: repeat(auto-fill, [l] 100px);
+}
+
+article div {
+    background: blueviolet;
+    background-clip: content-box;
+    padding: 10px;
+    border: solid 1px blueviolet;
+    font-size: 30px;
+    color: white;
+}
+article div:first-child {
+		grid-area: r 2/l 2/r 4/l 4;
+}
+</code></pre></div><h2 id="区域声明"><a href="#区域声明" class="header-anchor">#</a> 区域声明</h2> <p>区域是由多个单元格构成，使用<code>grid-template-areas</code>可以定义栅格区域，并且栅格区域必须是矩形的。</p> <h3 id="区域布局"><a href="#区域布局" class="header-anchor">#</a> 区域布局</h3> <p>下面是使用栅格区域布局移动端页面结构。</p> <p><img src="/images/2020-05-05_230427.jpg" alt=""></p> <div class="language- extra-class"><pre class="language-text"><code>&lt;style&gt;
+    body {
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        grid-template-rows: 80px 1fr 50px;
+        grid-template-columns: 100px 1fr 50px 60px;
+        grid-template-areas: &quot;header header header header&quot;
+            &quot;nav main main aside&quot;
+            &quot;footer footer footer footer&quot;;
+    }
+
+    main {
+    		/* 完整的写法，推荐使用下面的简写方式*/
+				/* grid-area: main-start/main-start/main-end/main-end; */
+        grid-area: main;
+        background: #E9EEEF;
+    }
+
+    header {
+        background: #2EC56C;
+        grid-area: header;
+    }
+
+    nav {
+        background: #E1732C;
+        grid-area: nav;
+    }
+
+    aside {
+        grid-area: aside;
+        background: #EEBC31;
+    }
+
+    footer {
+        grid-area: footer;
+        background: #904FA9;
+    }
+&lt;/style&gt;
+...
+
+&lt;body&gt;
+    &lt;header&gt;&lt;/header&gt;
+    &lt;nav&gt;&lt;/nav&gt;
+    &lt;main&gt;&lt;/main&gt;
+    &lt;aside&gt;&lt;/aside&gt;
+    &lt;footer&gt;&lt;/footer&gt;
+&lt;/body&gt;
+</code></pre></div><h3 id="区域声明-2"><a href="#区域声明-2" class="header-anchor">#</a> 区域声明</h3> <p>系统会为区域自动命名，上例中的会产生<code>header-start</code>水平与垂直同名的起始区域与<code>header-end</code>水平与垂直同名的终止区域。</p> <p><img src="/images/2020-05-05_230633.jpg" alt=""></p> <p>下面使用区域命名部署的效果。</p> <p><img src="/images/2020-05-05_230711.jpg" alt=""></p> <div class="language- extra-class"><pre class="language-text"><code>&lt;style&gt;
+    article {
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        grid-template-rows: 80px 1fr 50px;
+        grid-template-columns: 80 1fr;
+        grid-template-areas: &quot;header header header&quot;
+            &quot;nav main main&quot;
+            &quot;footer footer footer&quot;;
+    }
+
+    div {
+        background: blueviolet;
+        background-clip: content-box;
+        border: solid 1px blueviolet;
+        padding: 10px;
+        box-sizing: border-box;
+        color: white;
+        font-size: 25px;
+    }
+
+    div:nth-child(1) {
+        grid-area: header-start/nav-start/main-end/main-end;
+    }
+
+    div:nth-child(2) {
+        grid-area: footer-start/footer-start/footer-end/footer-end;
+    }
+&lt;/style&gt;
+...
+
+&lt;article&gt;
+	&lt;div&gt;&lt;/div&gt;
+	&lt;div&gt;&lt;/div&gt;
+&lt;/article&gt;
+</code></pre></div><h3 id="区域占位"><a href="#区域占位" class="header-anchor">#</a> 区域占位</h3> <p>使用一个或多个<code>.</code>定义区域占位。</p> <p><img src="/images/2020-05-05_231022.jpg" alt=""></p> <div class="language- extra-class"><pre class="language-text"><code>&lt;style&gt;
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    article {
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        grid-template-rows: repeat(3, 33.3%);
+        grid-template-columns: repeat(3, 33.3%);
+        grid-template-areas: &quot;top . .&quot;
+            &quot;top . .&quot;
+            &quot;bottom bottom bottom&quot;;
+    }
+
+    .top {
+        background: blueviolet;
+        grid-area: top;
+        font-size: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    .bottom {
+        background: orange;
+        grid-area: bottom;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+    }
+&lt;/style&gt;
+...
+
+&lt;article&gt;
+    &lt;div class=&quot;top&quot;&gt;
+        0x208.cc
+    &lt;/div&gt;
+    &lt;div class=&quot;bottom&quot;&gt;
+        doc.0x208.cc
+    &lt;/div&gt;
+&lt;/article&gt;
+</code></pre></div><h2 id="栅格流动"><a href="#栅格流动" class="header-anchor">#</a> 栅格流动</h2> <p>在容器中设置<code>grid-auto-flow</code>属性可以改变单元流动方式。</p> <table><thead><tr><th style="text-align:left;">选项</th> <th style="text-align:left;">说明</th></tr></thead> <tbody><tr><td style="text-align:left;">columns</td> <td style="text-align:left;">按列排序</td></tr> <tr><td style="text-align:left;">row</td> <td style="text-align:left;">按行排列</td></tr></tbody></table> <h3 id="基本使用"><a href="#基本使用" class="header-anchor">#</a> 基本使用</h3> <p>下例将单元按列排序流动。</p> <p><img src="/images/2020-05-05_231305.jpg" alt=""></p> <div class="language- extra-class"><pre class="language-text"><code>&lt;style&gt;
+  article {
+      width: 400px;
+      height: 400px;
+      display: grid;
+      grid-template-rows: repeat(2, 1fr);
+      grid-template-columns: repeat(2, 1fr);
+      border: solid 5px silver;
+      grid-auto-flow: column;
+  }
+
+  div {
+      background: blueviolet;
+      background-clip: content-box;
+      padding: 10px;
+      font-size: 35px;
+      color: white;
+  }
+&lt;/style&gt;
+...
+
+&lt;article&gt;
+    &lt;div&gt;1&lt;/div&gt;
+    &lt;div&gt;2&lt;/div&gt;
+    &lt;div&gt;3&lt;/div&gt;
+    &lt;div&gt;4&lt;/div&gt;
+&lt;/article&gt;
+</code></pre></div><h3 id="强制填充"><a href="#强制填充" class="header-anchor">#</a> 强制填充</h3> <p>当元素在栅格中放不下时，将会发生换行产生留白，使用<code>grid-auto-flow:row dense;</code>可以执行填充空白区域。</p> <p><img src="/images/2020-05-05_231734.jpg" alt=""></p> <div class="language- extra-class"><pre class="language-text"><code>&lt;style&gt;
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        padding-left: 200px;
+        padding-top: 200px;
+    }
+
+    article {
+        width: 600px;
+        height: 600px;
+        display: grid;
+        grid-template-rows: repeat(3, 200px);
+        grid-template-columns: repeat(3, 200px);
+        border: solid 5px silver;
+        grid-auto-flow: row dense;
+    }
+
+    div {
+        background: blueviolet;
+        background-clip: content-box;
+        padding: 10px;
+        font-size: 35px;
+        color: white;
+    }
+
+    article div:nth-child(1) {
+        grid-column: 1/span 2;
+        background: #000;
+    }
+
+    article div:nth-child(2) {
+        grid-column: 2/span 1;
+    }
+&lt;/style&gt;
+...
+
+&lt;article&gt;
+    &lt;div&gt;1&lt;/div&gt;
+    &lt;div&gt;2&lt;/div&gt;
+    &lt;div&gt;3&lt;/div&gt;
+    &lt;div&gt;4&lt;/div&gt;
+&lt;/article&gt;
+</code></pre></div><h2 id="栅格对齐"><a href="#栅格对齐" class="header-anchor">#</a> 栅格对齐</h2> <p>可以通过属性方便的定义栅格的对齐方式，可用值包括<code>start | end | center | stretch | space-between | space-evenly | space-around</code>。</p> <table><thead><tr><th style="text-align:left;">选项</th> <th style="text-align:left;">说明</th> <th style="text-align:left;">对象</th></tr></thead> <tbody><tr><td style="text-align:left;">align-items</td> <td style="text-align:left;">栅格内所有元素的垂直排列方式</td> <td style="text-align:left;">栅格容器</td></tr> <tr><td style="text-align:left;">justify-items</td> <td style="text-align:left;">栅格内所有元素的横向排列方式</td> <td style="text-align:left;">栅格容器</td></tr> <tr><td style="text-align:left;">justify-content</td> <td style="text-align:left;">所有栅格在容器中的水平对齐方式，容器有额外空间时</td> <td style="text-align:left;">栅格容器</td></tr> <tr><td style="text-align:left;">align-items</td> <td style="text-align:left;">所有栅格在容器中的垂直对齐方式，容器有额外空间时</td> <td style="text-align:left;">栅格容器</td></tr> <tr><td style="text-align:left;">align-self</td> <td style="text-align:left;">元素在栅格中垂直对齐方式</td> <td style="text-align:left;">栅格元素</td></tr> <tr><td style="text-align:left;">justify-items</td> <td style="text-align:left;">元素在栅格中水平对齐方式</td> <td style="text-align:left;">栅格元素</td></tr></tbody></table> <p><img src="/images/2020-05-05_232326.jpg" alt=""></p> <h3 id="平均分布"><a href="#平均分布" class="header-anchor">#</a> 平均分布</h3> <p><img src="/images/2020-05-05_232533.jpg" alt=""></p> <div class="language- extra-class"><pre class="language-text"><code>border: solid 5px silver;
+width: 600px;
+height: 600px;
+display: grid;
+grid-template-columns: 200px 200px;
+grid-template-rows: 200px 200px;
+justify-content: space-between;
+align-content: space-evenly;
+</code></pre></div><h3 id="元素对齐"><a href="#元素对齐" class="header-anchor">#</a> 元素对齐</h3> <p>用于控制所有元素的对齐方式。</p> <p><img src="/images/2020-05-05_232622.jpg" alt=""></p> <div class="language- extra-class"><pre class="language-text"><code>margin: 0 auto;
+border: solid 1px silver;
+width: 400px;
+height: 100px;
+display: grid;
+grid-template-columns: repeat(4, 100px);
+justify-items: center;
+align-items: center;
+</code></pre></div><h3 id="元素独立控制"><a href="#元素独立控制" class="header-anchor">#</a> 元素独立控制</h3> <p>控制单个元素的对齐方式</p> <p><img src="/images/2020-05-05_232714.jpg" alt=""></p> <div class="language- extra-class"><pre class="language-text"><code>div:first-child {
+  justify-self: end;
+  align-self: center;
+}
+
+div:nth-child(4) {
+  justify-self: start;
+  align-self: center;
+}
+</code></pre></div><h3 id="组合简写"><a href="#组合简写" class="header-anchor">#</a> 组合简写</h3> <h4 id="place-content"><a href="#place-content" class="header-anchor">#</a> place-content</h4> <p>用于控制栅格的对齐方式，语法如下：</p> <div class="language- extra-class"><pre class="language-text"><code>place-content: &lt;align-content&gt; &lt;justify-content&gt;;
+</code></pre></div><h4 id="place-items"><a href="#place-items" class="header-anchor">#</a> place-items</h4> <p>控制所有元素的对齐方式，语法结构如下：</p> <div class="language- extra-class"><pre class="language-text"><code>place-items: &lt;align-items&gt; &lt;justify-items&gt;;
+</code></pre></div><h4 id="place-self"><a href="#place-self" class="header-anchor">#</a> place-self</h4> <p>控制单个元素的对齐方式。</p> <div class="language- extra-class"><pre class="language-text"><code>place-self: &lt;align-self&gt; &lt;justify-self&gt;;
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/Web/CSS/10弹性布局.html" class="prev">
+        弹性布局
+      </a></span> <span class="next"><a href="/Web/CSS/12变形动画.html">
+        变形动画
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.c03918dc.js" defer></script><script src="/assets/js/2.c1b2c91e.js" defer></script><script src="/assets/js/18.3e193ff3.js" defer></script>
+  </body>
+</html>
